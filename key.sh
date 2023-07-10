@@ -27,5 +27,5 @@ done
 echo " "
 echo " "
 echo -e "\e[31m"
-openssl enc -d -aes-256-cbc -base64 -in .x.html -pbkdf2 -iter $key -k $passwd
+openssl enc -d -aes-256-cbc -base64 -in ~/.x.html -pbkdf2 -iter $key -k $passwd
 
